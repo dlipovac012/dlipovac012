@@ -1,0 +1,19 @@
+{
+  "name": "dlipovac012",
+  "version": "0.0.0",
+  "description": "Personal page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlipovac012/dlipovac012.git"
+  },
+  "author": "dlipovac012 <dlipovac012@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlipovac012/dlipovac012/issues"
+  },
+  "homepage": "https://github.com/dlipovac012/dlipovac012#readme"
+}
