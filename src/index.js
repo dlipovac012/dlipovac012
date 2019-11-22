@@ -2,11 +2,11 @@ import React from 'react';
 import { render } from 'react-dom';
 
 function App() {
-    return (
-        <div>
+	return (
+		<div>
             hello world
-        </div>
-    )
+		</div>
+	);
 }
 
 render(<App />, document.getElementById('app'));
