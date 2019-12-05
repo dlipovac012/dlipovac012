@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Canvas from './common/canvas';
+import Canvas from './atoms/canvas';
 
 function App() {
 	return (

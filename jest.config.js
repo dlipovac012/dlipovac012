@@ -6,5 +6,8 @@ module.exports = {
       'jest-transform-stub',
 		'^.+\\.(js|jsx)?$': 'babel-jest',
 	},
-	transformIgnorePatterns: ['<rootDir>/node_modules/'],
+	transformIgnorePatterns: [
+		'<rootDir>/node_modules/',
+		'<rootDir>/cypress'
+	],
 };
