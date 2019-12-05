@@ -5,9 +5,9 @@ node_js:
 cache:
   directories:
     - node_modules
+    
 script:
   - npm install
-  - npm test
   - npm run lint
 
 os: linux
