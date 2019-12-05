@@ -10,7 +10,7 @@ function App() {
 		<Fragment>
 			<Canvas />
 			<Container>
-				<span>dlipovac012</span>
+				<span>HELLO WORLD</span>
 			</Container>
 		</Fragment>
 	);

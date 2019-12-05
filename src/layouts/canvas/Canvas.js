@@ -12,7 +12,7 @@ function Canvas() { // eslint-disable-line
 		canvas.width = window.innerWidth;
 		canvas.height = window.innerHeight;
 
-		var letters = ('ｲｸﾁﾄﾉﾌﾍﾖﾙﾚﾛﾝ').split('');
+		var letters = ('0123456789ABCDEF').split('');
 		// Setting up the columns
 		var fontSize = 11,
 			columns = canvas.width / fontSize;
@@ -29,7 +29,7 @@ function Canvas() { // eslint-disable-line
 			ctx.fillRect(0, 0, canvas.width, canvas.height);
 			for (var i = 0; i < drops.length; i++) {
 				var text = letters[Math.floor(Math.random() * letters.length)];
-				ctx.fillStyle = '#ff0';
+				ctx.fillStyle = '#00897B';
 				ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 				drops[i]++;
 				if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
