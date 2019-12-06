@@ -1,7 +1,8 @@
 import React, { createRef, useEffect } from 'react';
 import './canvas.scss';
+import theme from '../../theme/theme.scss';
 
-function Canvas() { // eslint-disable-line
+function Canvas() {
 	var canvasRef = createRef();
 
 	useEffect(() => {
@@ -29,7 +30,7 @@ function Canvas() { // eslint-disable-line
 			ctx.fillRect(0, 0, canvas.width, canvas.height);
 			for (var i = 0; i < drops.length; i++) {
 				var text = letters[Math.floor(Math.random() * letters.length)];
-				ctx.fillStyle = '#00897B';
+				ctx.fillStyle = theme.accentColor;
 				ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 				drops[i]++;
 				if (drops[i] * fontSize > canvas.height && Math.random() > .95) {

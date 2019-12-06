@@ -1,1 +1,6 @@
 @import "global";
+@import "./variables.scss";
+
+:export {
+    accentColor: $accent;
+}
