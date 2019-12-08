@@ -2,8 +2,25 @@ language: node_js
 node_js:
   - 12.13.1
 
+addons:
+  apt:
+    packages:
+      - libgconf-2-4
+
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+
+install:
+  # use the new "ci" command for fastest installs on CI
+  - npm ci
+
+before_script:
+  - npm start -- --silent &
+
 script:
-  - npm install
+  # - npm install
   - npm run lint
   - npm run test:e2e
 
