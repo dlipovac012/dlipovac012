@@ -24,6 +24,3 @@ script:
 
 os: linux
 os: osx
-
-on:
-  branch: master
