@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "test": "jest",
     "e2e": "cypress open",
-    "test:e2e": "CYPRESS_baseUrl=http://localhost:8080 cypress run",
+    "test:e2e": "cypress run",
     "lint": "eslint ./src"
   },
   "repository": {
