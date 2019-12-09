@@ -7,7 +7,6 @@ module.exports = {
 		'^.+\\.(js|jsx)?$': 'babel-jest',
 	},
 	transformIgnorePatterns: [
-		'<rootDir>/node_modules/',
-		'<rootDir>/cypress'
+		'<rootDir>/node_modules/'
 	],
 };
