@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/dlipovac012/dlipovac012.svg?branch=master)](https://travis-ci.org/dlipovac012/dlipovac012)
 
 # dlipovac012
-
+<!-- 
 ### Hi there 👋
 
 #### A few facts about me:
@@ -25,3 +25,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+ -->
